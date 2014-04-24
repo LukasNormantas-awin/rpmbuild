@@ -1,12 +1,12 @@
 Name:           tailable
-Version:        0.0
+Version:        0.1.0
 Release:        1%{?dist}
 Summary:        Prints new lines in watched file
 
 Group:          Applications/File
 License:        BSD
 URL:            https://github.com/LukasNormantas-awin/tailable
-Source0:        https://github.com/LukasNormantas-awin/%{name}/archive/v%{version}.tar.gz
+Source0:        tailable-%{version}.tar.gz
 BuildRoot:      %(mktemp -ud %{_tmppath}/%{name}-%{version}-%{release}-XXXXXX)
 BuildArch:      x86_64 
 Packager:       Lukas Normantas
